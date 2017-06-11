@@ -26,10 +26,10 @@
                     <li ng-class="{ active: isActive('/TodoList') }"><a href="#/TodoList">Todo List</a></li>
                     <li ng-class="{ active: isActive('/UserData') }"><a href="#/UserData" ng-show="userInfo.isAuthenticated">User</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <!--<ul class="nav navbar-nav navbar-right">
                     <li><a class="btn btn-link" ng-show="userInfo.isAuthenticated" ng-click="logout()">Logout</a></li>
                     <li><a class="btn btn-link" ng-hide="userInfo.isAuthenticated" ng-click="login()">Login</a></li>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </div>
@@ -50,6 +50,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="navbar navbar-fixed-bottom">
+        Version 2.0
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
