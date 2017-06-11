@@ -43,7 +43,7 @@ angular.module('todoApp', ['ngRoute', 'AdalAngular'])
     adalProvider.init(
         {
             instance: 'https://login.microsoftonline.com/',
-            tenant: '{microsoft.onmicrosoft.com',
+            tenant: 'microsoft.onmicrosoft.com',
             clientId: 'caedac4f-a3cc-4115-8b1d-9fe2b6f02900',
             extraQueryParameter: 'nux=1',
             endpoints: endpoints
