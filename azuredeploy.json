@@ -153,7 +153,7 @@
           "properties": {
             "cors": {
               "allowedOrigins": [
-                "[concat('https://', parameters('siteName'), '.azurewebsites.net')]"
+                "[concat('http://', toLower(parameters('siteName')), '.azurewebsites.net')]"
               ]
             },
             "apiDefinition": {
